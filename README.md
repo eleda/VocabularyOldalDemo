@@ -1,6 +1,9 @@
 # VocabularyOldalDemo
 Ez egy reszponzív HTML5 alapú weboldal **front end** része az egyik programomhoz. Vizsgamunkának készítettem.
 
+Az élő, működő weboldalt itt lehet megtekinteni:
+http://ednetwork.pe.hu/voc_oldal_demo
+
 Az Infra Vocabulary program a valóságban is létezik, meg is található itt, a GitHub-on. A weboldal azonban inkább egy **fikció**. Amikor webszerkesztő tanfolyamra jártam, akkor készíteni kellett egy **HTML5 alapú weboldal vázat**, amire alá lehet tartalomkezelőt építeni.
 
 Két lapot készítettem el ezekkel az eszközökkel:
