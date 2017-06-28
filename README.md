@@ -3,7 +3,7 @@ Ez egy reszponzív HTML5 alapú weboldal **front end** része az egyik programom
 
 Az Infra Vocabulary program a valóságban is létezik, meg is található itt, a GitHub-on. A weboldal azonban inkább egy **fikció**. Amikor webszerkesztő tanfolyamra jártam, akkor készíteni kellett egy **HTML5 alapú weboldal vázat**, amire alá lehet tartalomkezelőt építeni.
 
-Két oldalt készítettem el ezekkel az eszközökkel:
+Két lapot készítettem el ezekkel az eszközökkel:
 - Brackets, Sublime Text programok
 - Linux/Windows
 - HTML5 / CSS3 / Javascript
