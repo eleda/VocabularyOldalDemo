@@ -1,0 +1,177 @@
+Vocabulary nyílt forráskódú szószedet alkalmazás weboldala
+
+Ez a program saját szavak gyűjtésére való, nyelvtanuláshoz, idegen és magyar (vagy más) nyelven. Egyelőre csak terv, nincs élesítve. A későbbiekben ez a program meg is valósulhat és lehet, hogy közzé is lesz téve.
+Az oldal szerkezete később más projektek számára is alapot adhat.
+
+------
+Vázlat
+------
+
+Részek
+
+- Motiváló mondat
+- Illusztráció az app-ról
+- Ingyenes app letöltés link (pl. x86..)
+- Miért válaszd ezt a programot
+- Képességek
+- Sokszínű lehetőségek
+- Prémium szolgáltatások
+- Plug in-ek
+- Version History
+- Súgó link
+- Fejlesztő link
+- Kapcsolat
+
+menü:
+- kezdőlap
+- kiadások
+- letöltések
+- jellemzők
+- támogatás
+- kapcsolat
+
+---------
+Részletek
+---------
+
+Technika: HTML5, CSS3 weboldal.
+Reszponzív dizájn.
+
+Oldalak:
+index.html	INDEX
+download.html	LETÖLTÉSEK
+support.html	TÁMOGATÁS
+contact.html	KAPCSOLAT
+
+Fejléc és a Lábléc mindenhol ugyanaz, viszont a belső tartlalmi rész eltér. Más Section-ok lesznek ott.
+
+----
+
+Template minta:
+
+"
+Én egy saját fejlesztésű asztali alkalmazáshoz keresek jó mintákat.
+
+SOFTEE
+Azt hiszem ez a téma egész jól közelíti a vágyaimat:
+
+http://devitems.com/preview/softee/index.html
+
+A fejlécet pont így képzelem el, a slider kicsit más lesz, de alatta a hárompaneles, majd a kép+szöveg részt is nagyon hasonlóképp gondoltam ki. Ezentúl már csak a lábléc lesz, de kicsit más.
+
+A színvilág inkább sárgás-aranyszínű-szürke lesz.
+
+THESAAS
+http://thetheme.io/thesaas/demo-gmail.html
+
+A slider résznél lehet hogy pont egy képernyőkép fog megjelenni, nagyon tetszik az egyszerűség, de az animáció kicsit már zavaró.
+
+KEYSOFT
+http://keysoft-wp.keydesign-themes.com/
+
+A "Managing tools" és a "Video" rész tetszett meg benne illetve a menü.
+
+GREPFRUT
+http://preview.themeforest.net/item/grepfrut-software-wordpress-theme/full_screen_preview/6314881?_ga=2.61795305.496067612.1496256047-1481772975.1496256047
+
+Egyszavas reklámszövegek, ikonok, menüben social ikonok, láblécet hasonlóképp képzeltem el, de egyszerűbb lesz.
+
+
+Később lehet hogy még jobban tisztul a kép.
+Lehet hogy a SOFTEE-ra támaszkodom majd.
+"
+
+
+
+Struktúra:
+
+----------
+index.html
+----------
+
+Képek:
+
+1. Csinált képernyőlövés a programról
+2. Szavak egyszerű felvétele
+3. Program és egy szótárkönyv odarajzolva
+
+4. Sok könyv egymásra pakolva
+5. Github ikon
+6. Toll
+
+
+Szöveg:
+
+Vocabulary		Kezdőlap	Letöltések	Támogatás	Kapcsolat
+
+Gyors és szabad szótárprogram
+	ami az én személyemre van szabva
+Több platformon is futtatható
+	nem köt meg a kezem, és még ingyen is van!
+Tanuláshoz, szórakozáshoz vagy éppen, ahogy tetszik
+	már csak pár kattintás választ el ettől a programtól
+
+[Letöltés]
+[Tudj meg többet róla]
+
+----
+
+3 panel
+	Elérhető verziók: Letöltések
+	Súgó és támogatás: Támogatás
+	Üzenj nekünk!: Kapcsolat
+
+----
+
+Akárhány szót elbír
+	annyi szót teszel bele, amit kívánsz, és még segít is megjegyezni őket!
+	Támogatás, szó felvétele >>
+
+
+Ingyenes program
+	teljesen nyílt forráskódú program, ami a Github-on is letölthető. Szólj, ha van észrevételed!
+	Github-ra >>
+
+
+Egyszerűen használható
+	Csak kattints párat, írd be és máris fent van az adott kifejezés! Minden testreszabható.
+	Letöltés >>
+	
+
+----
+
+Copyright 2017 Letters Present Software by Elekes Dávid. | Levélküldés
+
+Főoldal		Támogatás		Facebook
+Leírás		Régebbi verziók		YouTube
+Letöltések	Kapcsolat		Twitter
+
+----
+
+Szerkezet:
+-header
+	-logo, cím, menü (ul,li)
+-section#carousel
+	3 DB REKLÁM, img, felirat, gombok, balra-jobbra, bogyók
+-section#threediv
+	div#threepane
+		INFORMÁCIÓ 1
+	div#threepane
+		INFORMÁCIÓ 2
+	div#threepane
+		INFORMÁCIÓ 3
+-section#tip-one
+	div#twopane	
+		1. kép
+		1. cím, szöveg, tovább link
+-section#tip-two
+	div#twopane
+		2. cím, szöveg, tovább link
+		2. kép
+-section#tip-three
+	div#twopane
+		3. kép
+		3. cím, szöveg, tovább link
+-footer
+	div#footerlinks
+	div#footersocial

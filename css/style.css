@@ -1,0 +1,328 @@
+/*alapvető szabályok*/
+
+body {
+    padding-top: 75px;
+    font-family: 'Slabo 27px', serif;*
+}
+
+h2 {
+    font-weight: bold;
+}
+
+/*kapcsolat*/
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+/*felső rész*/
+
+.navbar {
+    color: black;
+    background: white;
+    height: 75px;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    font-weight: normal;
+    color: black;
+    padding: 30px 15px;
+}
+
+.navbar-nav li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    font-size: 18px;
+    padding-top: 27px;
+    padding-bottom: 28px;
+}
+
+.navbar-nav li a:hover {
+    background: #e6f0a3;
+    background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%);
+    background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%);
+    color: white;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+.navbar-toggle .icon-bar {
+    background: black;
+}
+
+
+/* Carousel base class */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+.carousel img {
+    opacity: 0.5;
+    box-shadow: 0px 0px 53px 0px rgba(255,255,255,1);
+    filter: blur(5px) grayscale(100%);
+    transition: 1s;
+}
+.carousel img:hover {
+    filter: blur(0);
+    opacity: 0.7;
+}
+
+.carousel-caption h1 {
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 18px rgba(0, 0, 0, 1);
+}
+
+.carousel-caption p {
+    margin-bottom: 25px;
+}
+
+.carousel-caption a.btn-lg {
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.carousel-caption a.btn-lg:hover {
+    color: white;
+    box-shadow: 0px 4px 20px 0px gray;
+}
+
+.carousel-caption a.btn-primary {
+    background: #9dd53a;
+    background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%);
+    background: -webkit-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-caption a.btn-primary:hover {
+    background: #9dd53a;
+    color: white;
+}
+
+.carousel-caption a.btn-default {
+    background: #fceabb;
+    background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: -webkit-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    color: black;
+}
+
+.carousel-caption a.btn-default:hover {
+    background: #f8b500;
+    color: white;
+}
+
+.carousel-control .fa {
+    position: absolute;
+    top: 50%;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 370px;
+    background: #7d7e7d;
+    background: -moz-radial-gradient(center, ellipse cover, #7d7e7d 0%, #0e0e0e 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #7d7e7d 0%,#0e0e0e 100%);
+    background: radial-gradient(ellipse at center, #7d7e7d 0%,#0e0e0e 100%);
+    box-shadow: inset 4px 4px 27px -8px rgba(0,0,0,0.75);
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+
+/* szolgáltatások - 3 panel */
+
+.features {
+    padding-bottom: 20px;
+}
+
+.features .btn i {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 48px;
+}
+
+.features .btn {
+    color: green;
+}
+
+.features .btn:hover {
+    background: #fefcea;
+    background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 100%);
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%);
+    color: black;
+}
+
+/* további szolgáltatások (2 panel) */
+
+.add-feats .row {
+    padding-bottom: 40px;
+}
+
+.add.feats .row:last-child {
+    padding-bottom: 0;
+}
+
+.add-feats h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.add-feats p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.add-feats a.btn {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background: #ffb76b;
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%);
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
+    background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
+    font-size: 20px;
+}
+
+.add-feats .btn:hover {
+    background: #ff7f04;
+}
+
+.add-feats .img-responsive {
+    padding: 50px;
+}
+
+/* lábléc */
+
+.subs-foot {
+    background: #bfd255;
+    background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+    background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+    background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+}
+
+.subs-foot h2 {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+/* lábléc űrlap (csak Index) */
+
+form input {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+.subs-foot .btn-primary {
+    color: white;
+    font-size: 18px;
+    background: #c72200;
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%);
+    background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%);
+    width: 180px;
+}
+
+.subs-foot .btn-primary:hover {
+    background: #ff6600;
+    cursor: grab;
+}
+
+/* lábléc alja */
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.footer span.text-muted {
+    color: white;
+}
+.footer a {
+    color: green;
+}
+.footer a:hover {
+    color: lightyellow;
+    text-decoration: none;
+}
+.footer .social a {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.footer .social a:last-child {
+    margin-right: 0;
+}
+
+/*------------------------------------------------*/
+/* RESPONSIVE CSS
+--------------------------------------------------*/
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 40px;   
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+
+
+    .subs-foot .btn-primary {
+        width: 220px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel .item {
+        height: 570px;
+    }
+}
